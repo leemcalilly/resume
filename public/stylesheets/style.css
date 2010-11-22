@@ -114,20 +114,6 @@ button {  width: auto; overflow: visible; }
 
 /***** Primary Styles - Author: Lee McAlilly, http://electricorangecreative.com *****/
 
-
-/***** Color Info  
-
-Black: #000
-Dark Grey: #474747
-Light Grey: #c4c4c4
-Dark Blue: #1b325f
-Light Blue: #3d89c8
-Sky Blue: #cfe2f1
-Light Light Blue: #ecf3f9
-
-******/
-
-
 /***** Typography ******/
 
 body {  
@@ -140,54 +126,37 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {  
-	font-size: 3.0em;  
+	font-size: 2.0em;  
 }
   
 h2 {  
- 	font-size: 2.0em;  
-}  
-
-h3 {  
  	font-size: 1.5em;  
 }  
 
-h4 {  
+h3 {  
  	font-size: 1.25em;  
 }  
 
-h1 a {
-	color:#000;
-	text-decoration:none;
-}
-
-h2 a {
-	color:#c4c4c4;
-	text-decoration:none;
-}
+h4 {  
+ 	font-size: 1.0em;  
+}  
 
 blockquote {  
  	font-size: 1.0em;  
 }  
 
-p {  
+p, dl, ol, ul {  
  	font-size: 0.75em;  
 	margin-bottom:15px;
 }  
 
-input {  
- 	font-size: 0.75em;  
-}  
-
-small {  
- 	font-size: 0.75em;  
+a {
+	color:#1b325f;
+	text-decoration:none;
 }
 
-ul, ol {
-	font-family: Rockwell, Georgia, serif; 
-}
-
-button, input, select, textarea { 
-	 font-family: Rockwell, Georgia, serif;
+a:hover {
+	color:#3d89c8;
 }
 
 /****** Layout *****/
@@ -202,28 +171,25 @@ body {
 }
 
 #wrapper {
-	width:960px;
+	width:640px;
 	overflow:hidden;
 	text-align:left;
-	border-top:3px solid #1b325f;
-	padding:0 0 20px 0;
+	border-top:15px solid #1b325f;
+	padding:0 0 45px 0;
 	margin:0 auto;
 }
 
 header {
 	float:left;
 	width:100%;
-	border-bottom:10px solid #1b325f;
-	x-border-bottom:10px solid #3d89c8;
-	border-top:5px solid #3d89c8;
-	padding:20px 0 20px 0;
+	padding:20px 0 45px 0;
 }
 
 section {
 	float:left;
 	width:100%;
 	padding:30px 0 45px 0;
-	border-top:3px solid #3d89c8;
+	border-top:2px solid #3d89c8;
 }
 
 footer {
@@ -231,5 +197,27 @@ footer {
 	width:100%;
 	padding:15px 0 0 0;
 	border-top:2px solid #3d89c8;
-	margin:45px 0 0 0;
+}
+
+dl, ul {
+	float:left;
+	width:100%;
+	overflow:visible;
+}
+
+dt {
+	font-size: 1.5em; 
+	margin:15px 0 0 0;
+}
+
+dt a {
+	text-decoration:none;
+}
+
+dt a strong {
+	color:#1b325f;
+}
+
+ul {
+	padding:15px 0 0 0;
 }
