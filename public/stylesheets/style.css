@@ -202,8 +202,11 @@ footer {
 
 dl, ul {
 	float:left;
-	width:100%;
 	overflow:visible;
+}
+
+ul {
+	max-width:575px;
 }
 
 dt {
