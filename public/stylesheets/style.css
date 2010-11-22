@@ -168,7 +168,6 @@ html {
 body {
 	text-align:center;
 	height:100%;
-	padding:15px;
 }
 
 #wrapper {
@@ -176,7 +175,7 @@ body {
 	overflow:hidden;
 	text-align:left;
 	border-top:15px solid #1b325f;
-	padding:0 0 45px 0;
+	padding:0 15px 45px 15px;
 	margin:0 auto;
 }
 
